@@ -7,7 +7,9 @@ authors = [
     { name = "analaugr", email = "anagarciarivera09@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "openpyxl>=3.1.5",
+]
 
 [project.scripts]
 capstone-mbs-workflow = "capstone_mbs_workflow:main"
