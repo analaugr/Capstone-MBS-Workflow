@@ -1,0 +1,17 @@
+[project]
+name = "capstone-mbs-workflow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "analaugr", email = "anagarciarivera09@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+capstone-mbs-workflow = "capstone_mbs_workflow:main"
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"
